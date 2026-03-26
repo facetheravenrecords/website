@@ -5585,17 +5585,6 @@
         }
       }
 
-      #__framer-badge-container {
-        pointer-events: none;
-        width: 100%;
-        z-index: calc(var(--infinity, 2147480000));
-        justify-content: flex-end;
-        padding: 20px;
-        display: flex;
-        position: fixed;
-        bottom: 0px;
-      }
-
       @supports (background: -webkit-named-image(i)) and
         (not (grid-template-rows: subgrid)) {
         body {
@@ -15506,64 +15495,6 @@ We're here to fix the grassroots promoter landscape from the inside by setting a
         }
       })();
     </script>
-
-    <div id="__framer-badge-container">
-      <!--$--><!--$--><!--$--><a
-        class="framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge"
-        data-framer-appear-id="n0ccwk"
-        data-framer-name="Light"
-        data-nosnippet="true"
-        style="
-          will-change: transform;
-          pointer-events: auto;
-          opacity: 0.001;
-          transform: translateY(10px);
-        "
-        href="https://www.framer.com/"
-        rel="noopener"
-        title="Create a free website with Framer, the website builder loved by startups, designers and agencies."
-        ><div
-          class="framer-13yxzio"
-          data-framer-name="Backdrop"
-          style="
-            background-color: rgb(255, 255, 255);
-            border-radius: 10px;
-            box-shadow:
-              rgba(0, 0, 0, 0.17) 0px 0.602187px 1.56569px -1.5px,
-              rgba(0, 0, 0, 0.14) 0px 2.28853px 5.95019px -3px,
-              rgba(0, 0, 0, 0.02) 0px 10px 26px -4.5px;
-            opacity: 1;
-          "
-        ></div>
-        <div
-          class="framer-19yaanm"
-          data-framer-name="Content"
-          style="transform: translate(-50%, -50%); opacity: 1"
-        >
-          <div class="framer-1kflzx5" style="opacity: 1">
-            <div
-              data-framer-name="Logo"
-              class="framer-hcsc7 framer-e50co"
-              style="
-                --1bd4d3i: rgb(0, 0, 0);
-                --otdjsv: rgb(0, 0, 0);
-                transform: translateX(-50%);
-                opacity: 1;
-              "
-            ></div>
-          </div>
-          <!--$-->
-          <p style="position: absolute; transform: scale(0.001)">
-            Create a free website with Framer, the website builder loved by
-            startups, designers and agencies.
-          </p>
-          <div
-            data-framer-name="Text"
-            class="framer-g7oZR framer-1um7t9d"
-            style="--1bd4d3i: rgb(0, 0, 0); --otdjsv: rgb(0, 0, 0); opacity: 1"
-          ></div>
-          <!--/$-->
-        </div>
         <div
           class="framer-j4ugry"
           data-framer-name="Bottom"
@@ -16434,15 +16365,7 @@ We're here to fix the grassroots promoter landscape from the inside by setting a
 
     <!-- End of bodyEnd -->
 
-    <div
-      id="__framer-editorbar"
-      src="https://framer.com/edit?framerSiteId=73a16d45219dfa503d26d38a614aae6d18c8f68c4e133e7f86f582dda1ec77fc&amp;source=facetheraven.framer.website&amp;features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%7D&amp;loadStart=1774531960667"
-      aria-hidden="true"
-      allow="autoplay"
-      tabindex="-1"
-      class="status_hidden"
-      data-original-tag="iframe"
-    >
+   
       <!doctype html>
       <html>
         <head>
@@ -16463,11 +16386,7 @@ We're here to fix the grassroots promoter landscape from the inside by setting a
               value: Object.freeze("production"),
             });
           </script>
-          <script>
-            Object.defineProperty(window, "castlePublishableAPIKey", {
-              value: Object.freeze("pk_xYqGbB61EcFiSh4LUshpT4DGoEQMKQMB"),
-            });
-          </script>
+
           <script>
             Object.defineProperty(window, "framerRelease", {
               value: Object.freeze({ channel: "stable" }),
@@ -16486,10 +16405,6 @@ We're here to fix the grassroots promoter landscape from the inside by setting a
           <meta name="color-scheme" content="light dark" />
 
           <script type="text/javascript">
-            Object.defineProperty(window, "cssBundleURL", {
-              value: "https://app.framerstatic.com/editorbar.LQ2CHOYK.css",
-            });
-
             Object.defineProperty(window, "deferredJsFiles", {
               value: [
                 "/s/app.cba3be34463e922b0df44022d725546466d3fc4c/scripts/react/react.production.min.js",
@@ -16546,29 +16461,7 @@ We're here to fix the grassroots promoter landscape from the inside by setting a
                 "framer-release-" + framerReleaseChannel,
               );
             }
-
-            // Add a class to the body to indicate that the agent experiment is on and apply the agent theme
-            // as the default theme.
-            // TODO: Remove once experiment is removed.
-            var storageKey = framerReleaseChannel
-              ? "experiments-" + framerReleaseChannel
-              : "experiments";
-            try {
-              var experiments = JSON.parse(
-                localStorage.getItem(storageKey) || "{}",
-              );
-              if (experiments.agent === "on") {
-                document.body.classList.add("agent");
-              }
-            } catch (e) {
-              // Ignore errors.
-            }
           </script>
-
-          <script
-            src="https://app.framerstatic.com/editorbar.MJ7APV7X.mjs"
-            type="module"
-          ></script>
         </body>
       </html>
     </div>
